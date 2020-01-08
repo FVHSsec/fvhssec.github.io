@@ -1,7 +1,7 @@
 # Website Information
 title : "FVHS Cyber Security"
 description: "Fountain Valley High School Cyber Security Club"
-url: "https://fvhssec.github.io/"
+url: "https://fvhssec.github.io"
 baseurl: "/"
 hosted_url: ""
 permalink: /:categories/:title
