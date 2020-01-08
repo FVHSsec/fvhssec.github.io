@@ -1,5 +1,5 @@
 <div class = "timeline">
-    {% for post in paging.posts %}
+    {% for post in pagination.posts %}
     <div class = "post">
         <h1 class = "post-title">
             <a href = "{{ post.url }}">
@@ -12,20 +12,20 @@
     {% endfor %}
 </div>
 
-<div class = "paging">
-    {% if paging.next_page %}
-        <a class = "paging-item older" href = "{{site.baseurl}}page{{paging.next_page}}"> Older </a>
+<div class = "pagination">
+    {% if pagination.next_page %}
+        <a class = "pagination-item older" href = "{{site.baseurl}}page{{pagination.next_page}}"> Older </a>
     {% else %}
-        <span class = "paging-item older"> Older </span>
+        <span class = "pagination-item older"> Older </span>
     {% endif %}
 
-    {% if paging.previous_page %}
-        <a class = "paging-item newer" href = "{{ site.baseurl }}">Newer</a>
+    {% if pagination.previous_page %}
+        <a class = "pagination-item newer" href = "{{ site.baseurl }}">Newer</a>
     {% else %}
-        <a class = "paging-item newer" href = "{{ site.baseurl }}page{{paging.previous_page}}">Newer</a>
+        <a class = "pagination-item newer" href = "{{ site.baseurl }}page{{pagination.previous_page}}">Newer</a>
     {% endif %}
 
     {% else %}
-       <span class = "paging-item newer">Newer</span>
+       <span class = "pagination-item newer">Newer</span>
     {% endif %}
 </div>
