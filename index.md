@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Fountain Valley High School Cyber Security
 
 You can use the [editor on GitHub](https://github.com/FVHSsec/fvhssec.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
