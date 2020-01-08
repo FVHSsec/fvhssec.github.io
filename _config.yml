@@ -8,6 +8,3 @@ permalink: /:categories/:title
 
 # Author Information
 email: "fvhssec@pm.me"
-
-# Markdown Settings
-markdown : kramdown
