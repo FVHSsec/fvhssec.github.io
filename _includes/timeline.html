@@ -1,5 +1,4 @@
-<div class="posts">
-    {% for post in paginator.posts %}
+<div class="timeline">
     <div class="post">
       <h1 class="post-title">
         <a href="{{ post.url }}">
@@ -11,5 +10,4 @@
   
       {{ post.content }}
     </div>
-    {% endfor %}
   </div>
