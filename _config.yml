@@ -1,3 +1,7 @@
-theme: jekyll-theme-minimal
+remote_theme : mmistakes/minimal-mistakes
+minimal_mistakes_skin : "default"
 
-title: FVHS Cyber Security
+locale : "en-US"
+title : "FVHS Cyber Security"
+url : "https://fvhssec.github.io"
+baseurl : ""
