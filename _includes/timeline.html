@@ -1,11 +1,16 @@
-<div class="timeline">
-    <div class="post">
-      <h1 class="post-title">
-        <a href="{{ post.url }}">
-          {{ post.title }}
+<div class = "timeline">
+    <div class = "posts">
+      <h1 class = "post-title">
+          {% for post in site.posts %}
+          {% if post.title != 404 %}
+        <a href = "{{ site.baseurl }} {{ post.url }}">
+            <div class = "post">
+                <h1>{{ post.title }}</h1>
+            </div>
+            
         </a>
       </h1>
-      <span class="post-date">
+      <span class = "post-date">
           {{ post.date | date_to_string }}
       </span>
       {{ post.content }}
