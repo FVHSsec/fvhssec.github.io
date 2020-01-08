@@ -14,18 +14,18 @@
 
 <div class = "paging">
     {% if paging.next_page %}
-    <a class = "paging-item older" href = "{{site.baseurl}}page{{paging.next_page}}"> Older </a>
+        <a class = "paging-item older" href = "{{site.baseurl}}page{{paging.next_page}}"> Older </a>
     {% else %}
-    <span class = "paging-item older"> Older </span>
+        <span class = "paging-item older"> Older </span>
     {% endif %}
 
     {% if paging.previous_page %}
-    <a class = "paging-item newer" href = "{{ site.baseurl }}">Newer</a>
+        <a class = "paging-item newer" href = "{{ site.baseurl }}">Newer</a>
     {% else %}
-    <a class = "paging-item newer" href = "{{ site.baseurl }}page{{paging.previous_page}}">Newer</a>
+        <a class = "paging-item newer" href = "{{ site.baseurl }}page{{paging.previous_page}}">Newer</a>
     {% endif %}
 
     {% else %}
-    <span class = "paging-item newer">Newer</span>
+       <span class = "paging-item newer">Newer</span>
     {% endif %}
 </div>
