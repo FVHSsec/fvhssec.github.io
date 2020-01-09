@@ -3,17 +3,19 @@
 		<section id = "one">
 			<div class = "inner">
 				{% for post in site.posts %}
+				<div>
 					<a href = "{{ site.url }}/{{ post.url }}">
-					<h1 class = "major">
-						<h1>{{ post.title }}</h1>
-					</h1>
-					<span class = "post-date">
-						{{ post.date | date_to_string }}
-					</span>
-					{{ post.content }}
-
-					{% endfor %}
+						<h1 class = "major">
+							{{ post.title }}
+						</h1>
+						<span class = "post-date">
+							{{ post.date | date_to_string }}
+						</span>
+						{{ post.content }}
+	
 					</a>
+					{% endfor %}
+				</div>
 			</div>
 		</section>
 	</div>
