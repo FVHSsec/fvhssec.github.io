@@ -4,9 +4,14 @@
 			<div class = "inner">
 				{% for post in site.posts %}
 					<a href = "{{ site.url }}/{{ post.url }}">
-					<header class = "major">
+					<h1 class = "major">
 						<h1>{{ post.title }}</h1>
-					</header>
+					</h1>
+					<span class = "post-date">
+						{{ post.date | date_to_string }}
+					</span>
+					{{ post.content }}
+
 					{% endfor %}
 					</a>
 			</div>
