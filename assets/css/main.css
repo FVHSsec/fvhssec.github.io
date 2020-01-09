@@ -18,5 +18,5 @@ html {
 #sidebar {
     text-align : center;
     padding : 2rem 1rem;
-    color : {{ site.base3 }}
+    color : {{ site.col-base3 }};
 }
