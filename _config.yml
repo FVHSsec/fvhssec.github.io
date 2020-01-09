@@ -3,7 +3,7 @@ title : "FVHS SEC"
 description : "Fountain Valley High School Security Club"
 url : "https://fvhssec.github.io"
 baseurl : ""
-permalink : "":categories/:title"
+permalink : ":categories/:title"
 
 # Solarized Color Palette
 col-base03 : "#002b36"
