@@ -1,12 +1,27 @@
 # Website Information
 title : "FVHS Cyber Security"
-description: "Fountain Valley High School Cyber Security Club"
-url: "https://fvhssec.github.io"
-baseurl: ""
-permalink: /:categories/:title
+description : "Fountain Valley High School Cyber Security Club"
+url : "https://fvhssec.github.io"
+baseurl : ""
+permalink : /:categories/:title
 
-# Markdown
-markdown : kramdown
+# Solarized Color Palette
+col-base03 : "#002b36"
+col-base02 : "#073642"
+col-base01 : "#586e75"
+col-base0 : "#657b83"
+col-base0 : "#839496"
+col-base1 : "#93a1a1"
+col-base2 : "#eee8d5"
+col-base3 : "#fdf6e3"
+col-yellow : "#b58900"
+col-orange : "#cb4b16"
+col-red : "#dc322f"
+col-magenta : "#d33682"
+col-violet : "#6c71c4"
+col-blue : "#268bd2"
+col-cyan : "#2aa198"
+col-green : "#859900"
 
 # Author Information
 email: "fvhssec@pm.me"
