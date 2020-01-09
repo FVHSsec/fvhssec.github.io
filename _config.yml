@@ -24,4 +24,7 @@ col-cyan : "#2aa198"
 col-green : "#859900"
 
 # Author Information
+author :
+  name : "Jeongwon Kim"
+
 email: "fvhssec@pm.me"
