@@ -1,5 +1,5 @@
 html {
-    color: {{ site.col-base03 }};
+    bgcolor: {{ site.col-base03 }};
     font-family : Arial, Helvetica, sans-serif;
 }
 
