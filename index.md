@@ -9,5 +9,5 @@ layout : home
 > code
 >
 
-name = ___
+<input type="text" id="name" name="name"/>
   
