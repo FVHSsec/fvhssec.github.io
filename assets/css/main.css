@@ -1,0 +1,17 @@
+html {
+    background-color: {{ site.col-base01 }};
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+@media (min-width : 48em) {
+    html {
+        font-size : 12pt;
+    }
+}
+
+@media (min-width : 58em) {
+    html {
+        font-size : 15pt;
+    }
+}
+
