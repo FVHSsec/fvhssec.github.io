@@ -1,5 +1,5 @@
 html {
-    background-color: {{ site.col-base01 }};
+    background-color: {{ site.col-base03 }};
     font-family : Arial, Helvetica, sans-serif;
 }
 
@@ -15,3 +15,8 @@ html {
     }
 }
 
+#sidebar {
+    text-align : center;
+    padding : 2rem 1rem;
+    color : {{ site.base3 }}
+}
