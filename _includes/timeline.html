@@ -1,10 +1,9 @@
 <div class = "timeline">
-	<div class = "alt">
-		<section id = "posts">
+		<section id = "timeline-post">
 			<div class = "post">
 				{% for post in site.posts %}
 				<div onclick = "location.href = '{{ site.url }}/{{ post.url }}'">
-					<h1 class = "major">
+					<h1 class = "post-title">
 						{{ post.title }}
 					</h1>
 					<span class = "post-date">{{ post.date | date_to_string }}</span>
@@ -14,5 +13,4 @@
 				</div>
 			</div>
 		</section>
-	</div>
 </div>
