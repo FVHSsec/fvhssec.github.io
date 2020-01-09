@@ -5,5 +5,8 @@ url: "https://fvhssec.github.io"
 baseurl: ""
 permalink: /:categories/:title
 
+# Markdown
+markdown : kramdown
+
 # Author Information
 email: "fvhssec@pm.me"
