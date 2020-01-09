@@ -1,7 +1,7 @@
 <div class = "timeline">
 		<section id = "timeline-post">
 				{% for post in site.posts %}
-				<div class = "post" onclick = "location.href = '{{ site.url }}/{{ post.url }}'">
+				<div class = "post" cursor: pointer; onclick = "location.href = '{{ site.url }}/{{ post.url }}'">
 					<h1 class = "post-title">
 						{{ post.title }}
 					</h1>
