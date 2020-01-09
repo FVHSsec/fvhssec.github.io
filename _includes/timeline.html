@@ -1,8 +1,7 @@
 <div class = "timeline">
 		<section id = "timeline-post">
-			<div class = "post">
 				{% for post in site.posts %}
-				<div onclick = "location.href = '{{ site.url }}/{{ post.url }}'">
+				<div class = "post" onclick = "location.href = '{{ site.url }}/{{ post.url }}'">
 					<h1 class = "post-title">
 						{{ post.title }}
 					</h1>
@@ -11,6 +10,5 @@
 					{{ post.content }}
 					{% endfor %}
 				</div>
-			</div>
 		</section>
 </div>
