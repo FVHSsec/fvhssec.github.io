@@ -1,3 +1,5 @@
+@import url("palette.css");
+
 html {
     font-family : Arial, Helvetica, sans-serif;
     background-color: var (--sol-base03);
