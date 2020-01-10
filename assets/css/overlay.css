@@ -1,6 +1,6 @@
 .sidebar {
     text-align : center;
     padding : 2rem 1rem;
-    background-color : #fdf6e3;
+    background-color : var (--col-base03);
     color : #002b36;
 }
