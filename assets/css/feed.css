@@ -7,5 +7,6 @@
 
 .post-link {
     text-decoration : none;
+    background-color : var(--sol-bas01);
     color : var(--sol-base3);
 }
