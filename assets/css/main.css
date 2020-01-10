@@ -23,5 +23,20 @@ body {
 }
 
 .content {
-    margin : 1em;
+    margin : 48px;
+}
+
+@media (min-width : 48em) {
+    .content {
+        max-width : 640px;
+        margin-left : 320px;
+        margin-right : 32px;
+    }
+}
+
+@media (min-width : 64em) {
+    .content {
+        margin-left : 360px;
+        margin-right : 64px;
+    }
 }
