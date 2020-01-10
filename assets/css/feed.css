@@ -5,7 +5,7 @@
     margin-bottom: 1em;
 }
 
-.post-title {
+.post-link {
     text-decoration : none;
     color : var(--sol-base3);
 }
