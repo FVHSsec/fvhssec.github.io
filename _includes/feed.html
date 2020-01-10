@@ -3,9 +3,11 @@
 				{% for post in site.posts %}
 				<div class = "post">
 					<div class = "post-section">
-						<a href = "{{ site.url }}{{ post.url }}" class = "post-link">
-							<h1> {{ post.title }} </h1>
-						</a>
+						<div class = "post-title-section">
+							<a href = "{{ site.url }}{{ post.url }}" class = "post-link">
+								<h1> {{ post.title }} </h1>
+							</a>
+						</div>
 						<span class = "post-date">{{ post.date | date_to_string }}</span>
 						<span class = "post-tag">{{ post.tags }}</span>
 						{{ post.content }}
