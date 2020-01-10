@@ -6,8 +6,11 @@
     margin-bottom: 1em;
 }
 
+.post-title-section {
+    background-color : var(--sol-base01);
+}
+
 .post-link {
     text-decoration : none;
-    background-color : var(--sol-base01);
     color : var(--sol-base3);
 }
