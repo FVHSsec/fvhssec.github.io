@@ -1,7 +1,12 @@
 .sidebar {
     text-align : center;
     padding : 2rem 1rem;
-    
+
     background-color : var(--sol-base3);
     color : var(--sol-base03);
+}
+
+.overlay-shortcut{
+    width : 256px;
+    height : auto;
 }
