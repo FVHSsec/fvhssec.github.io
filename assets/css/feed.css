@@ -1,15 +1,5 @@
 @import url("palette.css");
 
-.post-section {
-    background-color: var(--sol-base02);
-    padding : 8px;
-    margin-bottom: 1em;
-}
-
-.post-title-section {
-    background-color : var(--sol-base03);
-}
-
 .post-link {
     text-decoration : none;
     color : var(--sol-base3);
