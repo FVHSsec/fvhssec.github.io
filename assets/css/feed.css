@@ -1,5 +1,10 @@
 @import url("palette.css");
 
+.post {
+    background-color: var(--sol-base02);
+}
+
 .post-title {
     text-decoration : none;
+    color : var(--sol-base3);
 }
