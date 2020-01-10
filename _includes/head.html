@@ -1,7 +1,6 @@
 <head>
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <meta charset = "utf-8">
-
     <meta name = "viewport" content = "width=device-width, initial-scale = 1.0, user-scalable = no">
 
     <title>
@@ -18,11 +17,11 @@
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/main.css">
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/overlay.css">
 
-    {% if page.path == index.html %}
+    {% if page.name == index.html %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/feed.css">
     {% endif %}
     
-    {% if page.layout == error %}
+    {% if page.name == error %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/error.css">
     {% endif %}
     
