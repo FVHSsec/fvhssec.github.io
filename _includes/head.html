@@ -6,9 +6,9 @@
 
     <title>
         {% if page.title == "Home" %}
-            {{ site.title }}
+        {{ site.title }}
         {% else %}
-            {{ page.title }} &middot; {{ site.title }}
+        {{ page.title }} &middot; {{ site.title }}
         {% endif %}
     </title>
 
@@ -19,6 +19,6 @@
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/overlay.css">
 
     {{% if page.url == index.html %}}
-        <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/feed.css">
+    <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/feed.css">
     {{% endif %}}
     </head>
