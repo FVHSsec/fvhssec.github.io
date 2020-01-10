@@ -23,7 +23,7 @@ body {
 }
 
 a {
-    webkit-tap-highlight-color : none;
+    webkit-tap-highlight-color : transparent;
 }
 
 .content {
