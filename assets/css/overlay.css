@@ -1,6 +1,6 @@
 .sidebar {
     text-align : center;
     padding : 2rem 1rem;
-    background-color : {{ site.col-base3 }};
+    background-color : #fdf6e3;
     color : #002b36;
 }
