@@ -1,9 +1,7 @@
-@import url("palette.css");
-
 html {
     font-family : Arial, Helvetica, sans-serif;
-    background-color: var (--sol-base03);
-    color : var (--sol-base3);
+    background-color: var(--sol-base03);
+    color : var(--sol-base3);
 }
 
 @media (min-width : 48em) {
