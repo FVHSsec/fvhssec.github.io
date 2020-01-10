@@ -19,3 +19,7 @@ html {
         font-size : 15pt;
     }
 }
+
+.content {
+    margin : 8px;
+}
