@@ -17,11 +17,11 @@
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/main.css">
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/overlay.css">
 
-    {% if page.basename == index.html %}
+    {% if page.url == index.html %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/feed.css">
     {% endif %}
     
-    {% if page.basename == error %}
+    {% if page.url == error %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/error.css">
     {% endif %}
     
