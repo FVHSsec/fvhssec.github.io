@@ -1,1 +1,5 @@
 @import url("palette.css");
+
+.post-title {
+    text-decoration : none;
+}
