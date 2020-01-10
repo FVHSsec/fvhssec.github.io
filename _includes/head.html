@@ -18,7 +18,12 @@
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/main.css">
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/overlay.css">
 
-    {{% if page.path == index.html %}}
+    {% if page.path == index.html %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/feed.css">
-    {{% endif %}}
+    {% endif %}
+    
+    {% if page.layout == error %}
+    <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/error.css">
+    {% endif %}
+    
     </head>
