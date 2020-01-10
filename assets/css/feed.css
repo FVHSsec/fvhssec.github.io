@@ -1,6 +1,6 @@
 @import url("palette.css");
 
-.post-link {
+a {
     text-decoration : none;
     color : var(--sol-base02);
 }
