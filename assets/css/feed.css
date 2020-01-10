@@ -1,6 +1,6 @@
 @import url("palette.css");
 
-.post {
+.post-section {
     background-color: var(--sol-base02);
     margin-bottom: 1em;
 }
