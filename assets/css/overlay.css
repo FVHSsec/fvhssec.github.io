@@ -1,5 +1,5 @@
-.sidebar {
+.feed {
     text-align : center;
     padding : 2rem 1rem;
-    bgcolor : {{ site.col-base3 }};
+    color : {{ site.col-base3 }};
 }
