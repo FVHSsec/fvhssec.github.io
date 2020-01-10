@@ -22,6 +22,10 @@ body {
     padding : 0;
 }
 
+a {
+    webkit-tap-highlight-color : none;
+}
+
 .content {
     margin : 48px;
 }
