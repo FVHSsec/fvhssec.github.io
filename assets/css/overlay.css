@@ -21,6 +21,7 @@
 }
 
 .menu-link {
+    text-decoration : none;
     color : var(--sol-base3);
 }
 
