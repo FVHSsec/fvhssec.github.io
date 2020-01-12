@@ -39,15 +39,15 @@ input:focus {
 }
 
 .content {
-    margin : 48px;
+    margin : 3em;
     color : var(--sol-base03);
 }
 
 @media (min-width : 48em) {
     .content {
-        max-width : 640px;
-        margin-left : 320px;
-        margin-right : 32px;
+        max-width : 40em;
+        margin-left : 20em;
+        margin-right : 2em;
     }
 }
 

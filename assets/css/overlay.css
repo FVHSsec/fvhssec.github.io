@@ -27,7 +27,7 @@
         top : 0;
         left : 0;
         bottom : 0;
-        width : 256px;
+        width : 16em;
 
         text-align : left;
     }
@@ -37,6 +37,7 @@ ul {
     list-style-type : none;
     margin : 0;
     padding : 0;
+    display : flex;
 }
 
 #sidebar-menu .menu-link {
@@ -45,6 +46,6 @@ ul {
 }
 
 .overlay-shortcut{
-    width : 256px;
+    width : 16em;
     height : auto;
 }
