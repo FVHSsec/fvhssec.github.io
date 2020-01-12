@@ -34,12 +34,12 @@
 }
 
 ul {
-    text-decoration : none;
     margin : 0;
     padding : 0;
 }
 
 #sidebar-menu .menu-link {
+    text-decoration : none;
     text-align : center;
     color : var(--sol-base3);
 }
