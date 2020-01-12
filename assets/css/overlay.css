@@ -20,14 +20,14 @@
 
 }
 
-@media (min-width : 24em) {
+@media (min-width : 32em) {
     .sidebar {
         position : fixed;
         
         top : 0;
         left : 0;
         bottom : 0;
-        max-width : 10%
+        max-width : 10%;
 
         text-align : center;
     }
