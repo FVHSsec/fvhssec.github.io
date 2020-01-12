@@ -13,6 +13,7 @@
 
 .sidebar {
     text-align : center;
+    padding : 1em;
 
     background-color : var(--sol-base03);
     color : var(--sol-base3);
@@ -28,7 +29,7 @@
         bottom : 0;
         width : 16em;
 
-        text-align : left;
+        text-align : center;
     }
 }
 
