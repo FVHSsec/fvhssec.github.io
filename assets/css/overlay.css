@@ -20,12 +20,9 @@
     }
 }
 
-#menu-link {
-    color : var(--sol-base3);
-}
-
-.sidebar-menu {
+#sidebar-menu .menu-link {
     text-decoration : none;
+    color : var(--sol-base3);
 }
 
 .overlay-shortcut{
