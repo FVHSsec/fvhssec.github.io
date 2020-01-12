@@ -20,6 +20,10 @@
 
 }
 
+.description {
+    color : var(--sol-base2);
+}
+
 @media (min-width : 48em) {
     .sidebar {
         position : fixed;
