@@ -4,6 +4,7 @@
 
     background-color : var(--sol-base03);
     color : var(--sol-base3);
+
 }
 
 @media (min-width : 48em) {
@@ -20,7 +21,6 @@
 }
 
 a {
-    text-decoration : none;
     color : var(--sol-base3);
 }
 
