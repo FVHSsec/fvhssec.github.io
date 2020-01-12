@@ -34,13 +34,13 @@
 }
 
 ul {
-    list-style-type : none;
     margin : 0;
     padding : 0;
     display : flex;
 }
 
 #sidebar-menu .menu-link {
+    text-align : center;
     text-decoration : none;
     color : var(--sol-base3);
 }
