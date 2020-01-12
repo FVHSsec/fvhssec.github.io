@@ -19,13 +19,13 @@ html {
 
 @media (min-width : 48em) {
     html {
-        font-size : 12pt;
+        font-size : 18pt;
     }
 }
 
 @media (min-width : 58em) {
     html {
-        font-size : 15pt;
+        font-size : 14pt;
     }
 }
 
@@ -55,5 +55,6 @@ input:focus {
     .content {
         margin-left : 20em;
         margin-right : 6em;
+        padding-left : 2em;
     }
 }
