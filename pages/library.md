@@ -1,5 +1,5 @@
 ---
 title : Library
 layout : library
-permalink : {{ page.layout }}/
+permalink : library/
 ---
