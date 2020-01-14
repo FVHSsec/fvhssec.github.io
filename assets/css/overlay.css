@@ -24,7 +24,6 @@
     color : var(--sol-base2);
 }
 
-@media (min-width : 48em) {
 @media (min-width : 32em) {
     .sidebar {
         position : fixed;
