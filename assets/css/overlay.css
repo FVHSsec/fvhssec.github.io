@@ -19,23 +19,19 @@
     color : var(--sol-base3);
     box-shadow : 10px 0px 10px var(--sol-base01);
 
+    position : fixed;
+    
+    top : 0;
+    left : 0;
+    bottom : 0;
+    max-width : 20%;
+
+    text-align : center;
+
 }
 
 .description {
     color : var(--sol-base2);
-}
-
-@media (min-width : 32em) {
-    .sidebar {
-        position : fixed;
-        
-        top : 0;
-        left : 0;
-        bottom : 0;
-        max-width : 20%;
-
-        text-align : center;
-    }
 }
 
 ul {
