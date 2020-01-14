@@ -42,8 +42,8 @@ input:focus {
 
 @media (min-width : 48em) {
     .content {
-        margin-left : 25%;
-        margin-right : 5%;
+        margin-left : 30%;
+        margin-right : 10%;
     }
 }
 
