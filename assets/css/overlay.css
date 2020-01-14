@@ -37,6 +37,13 @@
     .description {
         display : none;
      }
+    .posts-link {
+    	content : "P";
+    }
+	
+	.library-link {
+		content : "L";
+	}
 }
 .description {
     color : var(--sol-base2);
@@ -49,7 +56,7 @@ ul {
     list-style-type : none;
 }
 
-#sidebar-menu .menu-link {
+#sidebar-menu #menu-link {
     text-decoration : none;
     text-align : center;
     color : var(--sol-base3);
