@@ -20,36 +20,39 @@
 
 }
 
+<<<<<<< HEAD
 .description {
     color : var(--sol-base2);
 }
 
 @media (min-width : 48em) {
+=======
+@media (min-width : 32em) {
+>>>>>>> 2982787f7a5e331d2c72c83442c999a6d5d68aee
     .sidebar {
         position : fixed;
         
         top : 0;
         left : 0;
         bottom : 0;
-        width : 16em;
+        max-width : 20%;
 
         text-align : center;
     }
 }
 
 ul {
-    list-style-type : none;
     margin : 0;
     padding : 0;
-    display : flex;
 }
 
 #sidebar-menu .menu-link {
     text-decoration : none;
+    text-align : center;
     color : var(--sol-base3);
 }
 
 .overlay-shortcut{
-    width : 8em;
-    height : auto;
+    max-width : 100%;
+    max-height : auto;
 }
