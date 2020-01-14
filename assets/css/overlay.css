@@ -43,6 +43,9 @@ ul {
     text-decoration : none;
     text-align : center;
     color : var(--sol-base3);
+
+    margin-top : 0.5em;
+    margin-bottom : 0.5em;
 }
 
 .overlay-shortcut{
