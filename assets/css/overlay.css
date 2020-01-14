@@ -34,6 +34,9 @@
     .sidebar {
         max-width : 10%;
     }
+    .description {
+        display : none;
+     }
 }
 .description {
     color : var(--sol-base2);
