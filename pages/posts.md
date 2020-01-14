@@ -1,5 +1,5 @@
 ---
 title : Posts
 layout : posts
-permalink : posts
+permalink : posts/
 ---
