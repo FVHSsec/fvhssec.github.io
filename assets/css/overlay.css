@@ -17,7 +17,7 @@
 
     background-color : var(--sol-base03);
     color : var(--sol-base3);
-    box-shadow : 0px 0px 15px 15px black;
+    box-shadow : 0px 0px 15px 15px lightgrey;
 
     position : fixed;
     
