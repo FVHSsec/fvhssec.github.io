@@ -41,9 +41,9 @@
     	content : "P";
     }
 	
-	.library-link {
-		content : "L";
-	}
+    .library-link {
+	content : "L"
+    }
 }
 .description {
     color : var(--sol-base2);
