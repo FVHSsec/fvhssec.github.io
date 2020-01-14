@@ -46,3 +46,7 @@ input:focus {
         margin-right : 5%;
     }
 }
+
+input, textarea, button, select, a {
+    -webkit-tap-highlight-color: transparent;
+}
