@@ -13,7 +13,7 @@
 
 .sidebar {
     text-align : center;
-    padding : 1em;
+    padding : 10%;
 
     background-color : var(--sol-base03);
     color : var(--sol-base3);
@@ -58,5 +58,4 @@ ul {
     margin : 0;
     padding : 0;
     max-width : 100%;
-    max-height : auto;
 }
