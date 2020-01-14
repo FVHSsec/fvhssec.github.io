@@ -20,15 +20,12 @@
 
 }
 
-<<<<<<< HEAD
 .description {
     color : var(--sol-base2);
 }
 
 @media (min-width : 48em) {
-=======
 @media (min-width : 32em) {
->>>>>>> 2982787f7a5e331d2c72c83442c999a6d5d68aee
     .sidebar {
         position : fixed;
         
