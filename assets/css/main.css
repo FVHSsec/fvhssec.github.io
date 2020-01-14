@@ -53,8 +53,7 @@ input:focus {
 
 @media (min-width : 64em) {
     .content {
-        margin-left : 20%;
+        margin-left : 25%;
         margin-right : 6em;
-        padding-left : 5%;
     }
 }
