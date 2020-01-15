@@ -36,7 +36,12 @@
     }
     .description {
         display : none;
-     }
+    }
+    
+    #sidebar-menu {
+		text-size : 50vw;
+    }
+	
     #sidebar-menu .posts-link {
     	content : 'P';
     }
