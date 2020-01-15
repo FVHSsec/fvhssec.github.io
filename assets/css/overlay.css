@@ -37,33 +37,33 @@
 }
 
 @media (min-width : 48em){
-	.sidebar {
-		max-width : 20%;
-	}
-	#sidebar-menu #Initial-link {
-		display : none;
-	}
+    .sidebar {
+        max-width : 20%;
+    }
+    #sidebar-menu #Initial-link {
+        display : none;
+    }
 	
-	#sidebar-menu #Full-link {
-		display : inline;
-	}
+    #sidebar-menu #Full-link {
+        display : inline-block;
+    }
 }
 
 @media (max-width : 48em){
     .sidebar {
-        max-width : 10%;
+        max-width : 100%;
     }
     .description {
         display : none;
     }
 	
-	#sidebar-menu #Full-link {
-		display : none;
-	}
+    #sidebar-menu #Full-link {
+        display : none;
+    }
 
-	#sidebar-menu #Initial-link {
-		display : inline;
-	}
+    #sidebar-menu #Initial-link {
+        display : inline-block;
+    }
 }
 
 .description {
