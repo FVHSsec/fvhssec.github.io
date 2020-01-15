@@ -34,7 +34,7 @@
     }
 	
 	#sidebar-menu span {
-		font-size : 18px;
+		font-size : 20px;
 	}
 	
     #sidebar-menu #Initial-link {
@@ -68,6 +68,11 @@
     }
 }
 
+
+a {
+    margin-bottom : 8em;
+}
+
 .description {
     color : var(--sol-base2);
 }
@@ -89,7 +94,4 @@ ul {
     max-width : 100%;
 }
 
-a {
-    margin-bottom : 4em;
-}
 
