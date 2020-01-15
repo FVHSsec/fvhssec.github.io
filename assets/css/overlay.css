@@ -29,8 +29,9 @@
 }
 
 @media (min-width : 48em){
-	max-width : 20%;
-	
+	.sidebar {
+		max-width : 20%;
+	}
 	#sidebar-menu #Initial-link {
 		display : none;
 	}
