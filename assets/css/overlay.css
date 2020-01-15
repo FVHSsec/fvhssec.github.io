@@ -28,14 +28,14 @@
 
     text-align : center;
 	
+	#sidebar-menu #Initial-link {
+		display : none;
+	}
+	
 	#sidebar-menu #Full-link {
 		display : inline;
 	}
 	
-	#sidebar-menu #Initial-link {
-		display : none;
-	}
-
 }
 
 @media (max-width : 48em){
@@ -53,11 +53,12 @@
 	#sidebar-menu #Full-link {
 		display : none;
 	}
-	
+
 	#sidebar-menu #Initial-link {
 		display : inline;
 	}
 }
+
 .description {
     color : var(--sol-base2);
 }
