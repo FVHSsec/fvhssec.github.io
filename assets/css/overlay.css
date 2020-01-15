@@ -37,12 +37,12 @@
     .description {
         display : none;
      }
-    .posts-link {
-    	content : "P";
+    #sidebar-menu .posts-link {
+    	content : 'P';
     }
 	
-    .library-link {
-	content : "L"
+    #sidebar-menu .library-link {
+	content : 'L';
     }
 }
 .description {
