@@ -6,7 +6,7 @@ baseurl : ""
 permalink : "/:categories/:title"
 
 # Author Information
-author :
+author : "Baron"
   name : "FVHS"
 
 email: "fvhssec@pm.me"
