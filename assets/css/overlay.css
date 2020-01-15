@@ -17,7 +17,7 @@
 
     background-color : var(--sol-base03);
     color : var(--sol-base3);
-    box-shadow : -18px 0px 20px 20px #444444;
+    box-shadow : -13px 0px 20px 15px #444444;
 
     position : fixed;
     
@@ -26,6 +26,14 @@
     bottom : 0;
 
     text-align : center;
+
+	#sidebar-menu #Full-link {
+		font-size : 18px;
+	}
+	
+	#sidebar-menu #Initial-link {
+		font-size : 10%;
+	}
 }
 
 @media (min-width : 48em){
@@ -47,10 +55,6 @@
     }
     .description {
         display : none;
-    }
-    
-    #sidebar-menu {
-	text-size : 10%;
     }
 	
 	#sidebar-menu #Full-link {
