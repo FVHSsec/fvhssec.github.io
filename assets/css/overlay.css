@@ -26,20 +26,17 @@
     bottom : 0;
 
     text-align : center;
-
-	#sidebar-menu #Full-link {
-		font-size : 24px;
-	}
-	
-	#sidebar-menu #Initial-link {
-		font-size : 36px;
-	}
 }
 
 @media (min-width : 48em){
     .sidebar {
         max-width : 20%;
     }
+	
+	#sidebar-menu span {
+		font-size : 18px;
+	}
+	
     #sidebar-menu #Initial-link {
         display : none;
     }
@@ -53,9 +50,14 @@
     .sidebar {
         max-width : 10%;
     }
+	
     .description {
         display : none;
     }
+	
+	#sidebar-menu span {
+		font-size : 24px;
+	}
 	
     #sidebar-menu #Full-link {
         display : none;
