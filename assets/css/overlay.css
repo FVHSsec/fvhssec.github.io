@@ -27,6 +27,14 @@
     max-width : 20%;
 
     text-align : center;
+	
+	#sidebar-menu #Full-link {
+		display : inline;
+	}
+	
+	#sidebar-menu #Initial-link {
+		display : none;
+	}
 
 }
 
@@ -39,16 +47,16 @@
     }
     
     #sidebar-menu {
-		text-size : 50vw;
+	text-size : 10%;
     }
 	
-    #sidebar-menu .posts-link {
-    	content : 'P';
-    }
+	#sidebar-menu #Full-link {
+		display : none;
+	}
 	
-    #sidebar-menu .library-link {
-	content : 'L';
-    }
+	#sidebar-menu #Initial-link {
+		display : inline;
+	}
 }
 .description {
     color : var(--sol-base2);
