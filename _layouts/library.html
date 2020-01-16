@@ -3,8 +3,8 @@ layout : page
 ---
 
 <div class = "library">
-    {% for book in site.library %}
-    <div class = "books">
+    {% for book in site.books %}
+    <div class = "book">
         <a href = "{{ site.url }}/{{ book.url }}" class = "book-link">
             <img src = "{{ book.image }}"></img>
         </a>
