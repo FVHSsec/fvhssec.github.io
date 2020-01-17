@@ -6,7 +6,7 @@ layout : page
     <div class = "documents-list">
         {% for document in site.documents %}
         <div class = "document">
-            <a href = "{{ site.url }}/{{ document.url }}" class = "document-link">
+            <a href = "{{ site.url }}{{ document.url }}" class = "document-link">
                 <img src = "{{ document.image }}"></img>
             </a>
         {% endfor %}
