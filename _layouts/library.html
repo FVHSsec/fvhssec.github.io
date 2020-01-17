@@ -7,7 +7,7 @@ layout : page
         {% for reference in site.references %}
         <div class = "reference">
             <a href = "{{ site.url }}{{ reference.url }}" class = "reference-link">
-                <img src = "{{ reference.image }}"></img>
+                <img src = "{{ site.baseurl }}/{{ reference.image }}"></img>
             </a>
         {% endfor %}
         </div>
