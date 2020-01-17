@@ -36,7 +36,6 @@ input:focus {
 .content {
     margin : 4em;
     margin-left : 25%;
-
     color : var(--sol-base03);
 }
 
@@ -44,6 +43,7 @@ input:focus {
     .content {
         margin-left : 30%;
         margin-right : 20%;
+        max-width : 50%;
     }
 }
 
