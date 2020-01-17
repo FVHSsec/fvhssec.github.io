@@ -6,9 +6,9 @@ baseurl : ""
 permalink : "/:categories/:title"
 
 # Collection Information
-collection:
+collections:
   references:
-    output : true
+  
   
 # Author Information
 author :
