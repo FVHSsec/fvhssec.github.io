@@ -5,6 +5,10 @@ url : "https://fvhssec.github.io"
 baseurl : ""
 permalink : "/:categories/:title"
 
+# Collection Information
+collection:
+  references:
+  
 # Author Information
 author :
   name : "FVHS"
