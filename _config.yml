@@ -9,7 +9,7 @@ permalink : "/:categories/:title"
 collections:
   references:
     output : true
-    permalink : /:categories/:title
+    permalink : "/:categories/:title"
   
   
 # Author Information
