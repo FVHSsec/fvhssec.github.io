@@ -2,10 +2,12 @@
 title : "FVHSsec"
 description : "Fountain Valley High School Security Club"
 url : "https://fvhssec.github.io"
-baseurl : ""
+baseurl : "/"
 
 cssurl : "/assets/css/"
 imageurl : "/assets/images/"
+
+docimageurl : "/assets/images/library/references/"
 
 permalink : "/:categories/:title"
 
