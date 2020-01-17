@@ -17,17 +17,14 @@
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/main.css">
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/overlay.css">
 
-    {% if page.layout != "construction" %}
     {% if page.layout == "home" %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/feed.css">
-    {% endif %}
-    {% if page.layout == "error" %}
+    {% elseif page.layout == "error" %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/error.css">
     {% endif %}
-    {% if page.layout == "posts" %}
+    {% elseif page.layout == "posts" %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/posts.css">
-    {% endif %}
-    {% else %}
-    <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/construction.css">
+    {% elseif page.layout == "library" %}
+    <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/library.css">
     {% endif %}
 </head>
