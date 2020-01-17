@@ -19,12 +19,11 @@
 
     {% if page.layout == "home" %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/feed.css">
-    {% elseif page.layout == "error" %}
+    {% elsif page.layout == "error" %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/error.css">
-    {% endif %}
-    {% elseif page.layout == "posts" %}
+    {% elsif page.layout == "posts" %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/posts.css">
-    {% elseif page.layout == "library" %}
+    {% elsif page.layout == "library" %}
     <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/library.css">
     {% endif %}
 </head>
