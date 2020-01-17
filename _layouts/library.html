@@ -3,17 +3,14 @@ layout : page
 ---
 
 <div class = "library">
-    <div class = "documents-list">
-        {% for document in site.documents %}
-        <div class = "document">
-            <a href = "{{ site.url }}{{ document.url }}" class = "document-link">
-                <img src = "{{ document.image }}"></img>
+    <div class = "references-list">
+        {% for reference in site.references %}
+        <div class = "reference">
+            <a href = "{{ site.url }}{{ reference.url }}" class = "reference-link">
+                <img src = "{{ reference.image }}"></img>
             </a>
         {% endfor %}
         </div>
-    </div>
-
-    <div class = "site-list">
     </div>
 
 
