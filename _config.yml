@@ -12,6 +12,7 @@ permalink : "/:categories/:title"
 # Collection Information
 collections:
   references:
+    layout : "document"
     output : true
     permalink : "/:categories/:title"
   
