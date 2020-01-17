@@ -8,6 +8,8 @@ permalink : "/:categories/:title"
 # Collection Information
 collections:
   references:
+    output : true
+    permalink : /:categories/:title
   
   
 # Author Information
