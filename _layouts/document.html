@@ -9,6 +9,8 @@ layout : page
     
     <div class = "document-info">
         {{ page.content }}
-        {{ page.download-link }}
+        {% if page.download-link != "" %}
+        <a href = "{{ page.download-link }}" class = "download-link">Download</a>
+        {% endif %}
     </div>
 </div>
