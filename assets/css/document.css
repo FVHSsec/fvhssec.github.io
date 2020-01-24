@@ -4,6 +4,7 @@
 }
 
 .download-link {
+  color : var(--sol-base3);
+
   text-decoration : none;
-  
 }
