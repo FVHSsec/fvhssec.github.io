@@ -1,4 +1,9 @@
 #cover {
   max-height : 12em;
   width : auto;
+  overflow : hidden;
+}
+
+#cover img {
+  max-width : initial;
 }
