@@ -4,20 +4,18 @@ layout : page
 
 <div class = "library">
     <div class = "references-list">
-        {% for reference in site.references %}
         <h2> Books </h2>
-        {% if reference.categories contains "book" %}
+        {% assign references = site.references | where_exp: "reference", "post.categories contains 'book'" %}
         <div class = "reference-book">
             <a href = "{{ site.url }}{{ reference.url }}" class = "book-link">
                 <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
             </a>
-        {% endif %}
+        {% endfor %}
         <h2> Sites </h2>
-        {% if reference.categories contains "site" %}
+        {% assign references = site.references | where_exp: "reference", "post.categories contains 'book'" %}
         <a href = "{{ reference.site-link }}" class = "site-link">
             <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
         </a>
-        {% endif %}
         {% endfor %}
         </div>
     </div>
