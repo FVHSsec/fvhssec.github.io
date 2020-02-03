@@ -14,7 +14,7 @@ layout : page
         {% endif %}
         <h2> Sites </h2>
         {% if reference.categories contains "site" %}
-        <a href = "reference.site-link" class = "site-link">
+        <a href = "{{ reference.site-link }}" class = "site-link">
             <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
         </a>
         {% endif %}
