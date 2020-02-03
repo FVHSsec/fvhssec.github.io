@@ -5,10 +5,19 @@ layout : page
 <div class = "library">
     <div class = "references-list">
         {% for reference in site.references %}
-        <div class = "reference">
-            <a href = "{{ site.url }}{{ reference.url }}" class = "reference-link">
+        <h2> Books </h2>
+        {% for reference.categories == book %}
+        <div class = "reference-book">
+            <a href = "{{ site.url }}{{ reference.url }}" class = "book-link">
                 <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
             </a>
+        {% endfor %}
+        <h2> Sites </h2>
+        {% for reference.categories == site%}
+        <a href = "reference.link" class = "site-link">
+            <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
+        </a>
+        {% endfor %}
         {% endfor %}
         </div>
     </div>
