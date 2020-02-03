@@ -13,8 +13,8 @@ layout : page
             </a>
         {% endfor %}
         <h2> Sites </h2>
-        {% for reference.categories == site%}
-        <a href = "reference.link" class = "site-link">
+        {% for reference.categories == site %}
+        <a href = "reference.site-link" class = "site-link">
             <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
         </a>
         {% endfor %}
