@@ -6,18 +6,18 @@ layout : page
     <div class = "references-list">
         {% for reference in site.references %}
         <h2> Books </h2>
-        {% for reference.categories == "book" %}
+        {% if reference.categories contains "book" %}
         <div class = "reference-book">
             <a href = "{{ site.url }}{{ reference.url }}" class = "book-link">
                 <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
             </a>
-        {% endfor %}
+        {% endif %}
         <h2> Sites </h2>
-        {% for reference.categories == "site"  %}
+        {% if reference.categories contains "site" %}
         <a href = "reference.site-link" class = "site-link">
             <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
         </a>
-        {% endfor %}
+        {% endif %}
         {% endfor %}
         </div>
     </div>
