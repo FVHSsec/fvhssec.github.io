@@ -19,5 +19,6 @@ a {
 .post {
      background-color : var(--sol-base2);
      overflow : hidden;
+     padding : 5%;
      bottom-margin : 20%;
 }
