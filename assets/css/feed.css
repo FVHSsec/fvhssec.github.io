@@ -16,7 +16,7 @@ a {
     color : var(--sol-base02);
 }
 
-.post {
+.post-content {
      background-color : var(--sol-base2);
      overflow : hidden;
      padding : 5%;
