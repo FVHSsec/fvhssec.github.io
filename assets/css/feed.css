@@ -17,7 +17,7 @@ a {
 }
 
 .post {
+     background-color : var(--sol-base2);
      max-width : 10em;
      overflow : hidden;
-
 }
