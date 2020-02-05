@@ -6,4 +6,7 @@
 
 #cover img {
   max-width : initial;
+  
+  border-width : thin;
+  border-color : #000000;
 }
