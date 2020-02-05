@@ -20,4 +20,5 @@ a {
      background-color : var(--sol-base2);
      overflow : hidden;
      padding : 5%;
+     border-radious : 16px;
 }
