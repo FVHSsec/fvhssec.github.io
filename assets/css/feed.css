@@ -18,6 +18,5 @@ a {
 
 .post {
      background-color : var(--sol-base2);
-     max-height : 16em;
      overflow : hidden;
 }
