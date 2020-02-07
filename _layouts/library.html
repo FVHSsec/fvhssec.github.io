@@ -17,7 +17,7 @@ layout : page
         <h2> Sites </h2>
         {% for reference in site.references %}
         {% if reference.categories contains "site" %}
-        <div class = "reference-site">    
+        <div class = "reference-site" target="_blank">    
         <a href = "{{ reference.site-link }}" class = "site-link">
             <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
         </a>
