@@ -5,7 +5,7 @@ layout : page
 <div class = "library">
     <div class = "references-list">
         <h2> Books </h2>
-        {% for reference in references %}
+        {% for reference in site.references %}
         {% if reference.categories contains "book" %}
         <div class = "reference-book">
             <a href = "{{ site.url }}{{ reference.url }}" class = "book-link">
