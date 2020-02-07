@@ -1,5 +1,6 @@
 #cover {
   max-height : 12em;
+  max-width : 9em;
   width : auto;
   overflow : hidden;
 }
