@@ -15,7 +15,7 @@
      display : block;
 }
 
-#reference-site #cover{
+#reference-list #reference-site #cover{
   display : inline-block;
   float : left;
   margin : 0.25em;
@@ -25,7 +25,7 @@
   overflow : hidden;
 }
 
-#reference-site #cover{
+#reference-list #reference-site #cover{
   display : inline-block;
   float : left;
   margin : 0.25em;
@@ -35,15 +35,14 @@
   overflow : hidden;
 }
 
-#reference-book #cover img {
+#reference-list #reference-book #cover img {
   max-width : initial;
   
   border-width : 2px;
   border-color : #000000;
 }
 
-
-#reference-site #cover img {
+#reference-list #reference-site #cover img {
   max-width : initial;
   
   border-width : 2px;
