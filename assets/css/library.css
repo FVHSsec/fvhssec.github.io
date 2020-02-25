@@ -11,11 +11,7 @@
      └──────┘└──────┘└──────┘└──────┘└──┘    └──┘  └──┘  └──────┘
 */
 
-#reference-list {
-     display : block;
-}
-
-#reference-list #reference-site #cover{
+#reference-site{
   display : inline-block;
   float : left;
   margin : 0.25em;
@@ -25,7 +21,7 @@
   overflow : hidden;
 }
 
-#reference-list #reference-site #cover{
+#reference-site{
   display : inline-block;
   float : left;
   margin : 0.25em;
@@ -35,14 +31,14 @@
   overflow : hidden;
 }
 
-#reference-list #reference-book #cover img {
+#cover img {
   max-width : initial;
   
   border-width : 2px;
   border-color : #000000;
 }
 
-#reference-list #reference-site #cover img {
+#cover img {
   max-width : initial;
   
   border-width : 2px;
