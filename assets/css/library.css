@@ -30,7 +30,16 @@
   width : auto;
   overflow : hidden;
 }
-#cover img {
+
+#reference-book #cover img {
+  max-width : initial;
+  
+  border-width : 2px;
+  border-color : #000000;
+}
+
+
+#reference-site #cover img {
   max-width : initial;
   
   border-width : 2px;
