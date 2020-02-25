@@ -13,6 +13,7 @@
 
 #cover {
   display : inline-block;
+  float : left;
   max-height : 12em;
   max-width : 9em;
   width : auto;
