@@ -9,9 +9,9 @@
      │  ────┤│  ────┤│  ┌───┘│  ││  ││  ┌───┘├──┤└─┐  ┌─┘│  └┘  │
      ├────  ││  ────┤│  └───┐│  └┘  ││  │    │  │  │  │  ├────  │
      └──────┘└──────┘└──────┘└──────┘└──┘    └──┘  └──┘  └──────┘
-*/
+*
 
-#cover {
+.reference-book #cover{
   display : inline-block;
   float : left;
   margin : 0.25em;
@@ -21,6 +21,15 @@
   overflow : hidden;
 }
 
+.reference-book #cover{
+  display : inline-block;
+  float : left;
+  margin : 0.25em;
+  max-height : 12em;
+  max-width : 9em;
+  width : auto;
+  overflow : hidden;
+}
 #cover img {
   max-width : initial;
   
