@@ -21,7 +21,7 @@
   overflow : hidden;
 }
 
-.reference-book #cover{
+.reference-site #cover{
   display : inline-block;
   float : left;
   margin : 0.25em;
