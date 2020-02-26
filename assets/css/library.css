@@ -20,7 +20,7 @@
   overflow : hidden;
 }
 
-#book-link #cover img {
+#book-link .cover img {
   max-width : initial;
   
   border-width : 2px;
@@ -37,7 +37,7 @@
   overflow : hidden;
 }
 
-#site-link #cover img {
+#site-link .cover img {
   max-width : initial;
   
   border-width : 2px;
