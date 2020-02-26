@@ -15,7 +15,7 @@
 }
 
 .reference-book #cover {
-  display : inline-block;
+  display : inline;
   float : left;
   margin : 0.25em;
   max-height : 12em;
