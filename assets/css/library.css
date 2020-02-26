@@ -11,7 +11,7 @@
      └──────┘└──────┘└──────┘└──────┘└──┘    └──┘  └──┘  └──────┘
 */
 
-#reference-site{
+#reference-book{
   display : inline-block;
   float : left;
   margin : 0.25em;
@@ -29,13 +29,6 @@
   max-width : 9em;
   width : auto;
   overflow : hidden;
-}
-
-#cover img {
-  max-width : initial;
-  
-  border-width : 2px;
-  border-color : #000000;
 }
 
 #cover img {
