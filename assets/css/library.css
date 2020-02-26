@@ -10,18 +10,7 @@
      ├────  ││  ────┤│  └───┐│  └┘  ││  │    │  │  │  │  ├────  │
      └──────┘└──────┘└──────┘└──────┘└──┘    └──┘  └──┘  └──────┘
 */
-
-#reference-book{
-  display : inline-block;
-  float : left;
-  margin : 0.25em;
-  max-height : 12em;
-  max-width : 9em;
-  width : auto;
-  overflow : hidden;
-}
-
-#reference-site{
+#conver {
   display : inline-block;
   float : left;
   margin : 0.25em;
