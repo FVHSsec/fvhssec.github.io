@@ -10,7 +10,7 @@
      ├────  ││  ────┤│  └───┐│  └┘  ││  │    │  │  │  │  ├────  │
      └──────┘└──────┘└──────┘└──────┘└──┘    └──┘  └──┘  └──────┘
 */
-.cover {
+#cover {
   display : inline-block;
   float : left;
   margin : 0.25em;
@@ -20,7 +20,7 @@
   overflow : hidden;
 }
 
-.cover img {
+#cover img {
   max-width : initial;
   
   border-width : 2px;
