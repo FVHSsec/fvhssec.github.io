@@ -10,6 +10,15 @@
      ├────  ││  ────┤│  └───┐│  └┘  ││  │    │  │  │  │  ├────  │
      └──────┘└──────┘└──────┘└──────┘└──┘    └──┘  └──┘  └──────┘
 */
+.reference-book {
+     display : block;
+}
+
+.reference-site {
+     display : block;
+}
+
+
 #cover {
   display : inline-block;
   float : left;
