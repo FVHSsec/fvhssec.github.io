@@ -10,11 +10,7 @@
      ├────  ││  ────┤│  └───┐│  └┘  ││  │    │  │  │  │  ├────  │
      └──────┘└──────┘└──────┘└──────┘└──┘    └──┘  └──┘  └──────┘
 */
-.reference-book {
-     display : block;
-}
-
-.reference-book #cover {
+#cover {
   float : left;
   margin : 0.25em;
   max-height : 12em;
@@ -23,29 +19,7 @@
   overflow : hidden;
 }
 
-.reference-book #cover img {
-  max-width : initial;
-  
-  border-width : 2px;
-  border-color : #000000;
-}
-
-
-.reference-site {
-     display : block;
-}
-
-.reference-site #cover {
-  /* display : inline; */
-  float : left;
-  margin : 0.25em;
-  max-height : 12em;
-  max-width : 9em;
-  width : auto;
-  overflow : hidden;
-}
-
-.reference-site #cover img {
+#cover img {
   max-width : initial;
   
   border-width : 2px;
