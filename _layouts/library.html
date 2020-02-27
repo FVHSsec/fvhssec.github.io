@@ -6,26 +6,30 @@ layout : page
     <div class = "references-list">
         <h2> Books </h2>
         <hr>
-        {% for reference in site.references %}
-        {% if reference.categories contains "book" %}
-        <div class = "reference-book">
-            <a href = "{{ site.url }}{{ reference.url }}" class = "book-link">
-                <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
-            </a>
-        {% endif %}
-        {% endfor %}
+        <div class = "books-list">
+            {% for reference in site.references %}
+            {% if reference.categories contains "book" %}
+            <div class = "reference-book">
+                <a href = "{{ site.url }}{{ reference.url }}" class = "book-link">
+                    <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
+                </a>
+            {% endif %}
+            {% endfor %}
+            </div>
         </div>
     
         <h2> Sites </h2>
         <hr>
-        {% for reference in site.references %}
-        {% if reference.categories contains "site" %}
-        <div class = "reference-site" target="_blank">    
-        <a href = "{{ reference.site-link }}" class = "site-link">
-            <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
-        </a>
-        {% endif %}
-        {% endfor %}
+        <div class = "book-list>
+            {% for reference in site.references %}
+            {% if reference.categories contains "site" %}
+            <div class = "reference-site" target="_blank">    
+            <a href = "{{ reference.site-link }}" class = "site-link">
+                <img src = "{{ site.docimageurl }}/{{ reference.cover }}" id = "cover"></img>
+            </a>
+            {% endif %}
+            {% endfor %}
+            </div>
         </div>
     </div>
 </div>
