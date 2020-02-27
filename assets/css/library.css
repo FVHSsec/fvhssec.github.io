@@ -36,7 +36,7 @@
 }
 
 .reference-site #cover {
-  display : inline;
+  /* display : inline; */
   float : left;
   margin : 0.25em;
   max-height : 12em;
