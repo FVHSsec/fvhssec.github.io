@@ -5,6 +5,7 @@ layout : page
 <div class = "library">
     <div class = "references-list">
         <h2> Books </h2>
+        <hr>
         {% for reference in site.references %}
         {% if reference.categories contains "book" %}
         <div class = "reference-book">
@@ -16,6 +17,7 @@ layout : page
         </div>
     
         <h2> Sites </h2>
+        <hr>
         {% for reference in site.references %}
         {% if reference.categories contains "site" %}
         <div class = "reference-site" target="_blank">    
