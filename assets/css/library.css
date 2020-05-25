@@ -10,9 +10,14 @@
      ├────  ││  ────┤│  └───┐│  └┘  ││  │    │  │  │  │  ├────  │
      └──────┘└──────┘└──────┘└──────┘└──┘    └──┘  └──┘  └──────┘
 */
-#list {
+.booklist {
      align : left;
 }
+
+.sitelist {
+     align : left;
+}
+
 .book-link #cover {
   float : left;
   margin : 0.25em;
