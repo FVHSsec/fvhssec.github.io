@@ -11,10 +11,12 @@
      └──────┘└──────┘└──────┘└──────┘└──┘    └──┘  └──┘  └──────┘
 */
 .booklist {
+     display : block;
      align : left;
 }
 
 .sitelist {
+     display : block;
      align : left;
 }
 
