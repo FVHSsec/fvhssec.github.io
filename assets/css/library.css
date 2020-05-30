@@ -10,7 +10,7 @@
      ├────  ││  ────┤│  └───┐│  └┘  ││  │    │  │  │  │  ├────  │
      └──────┘└──────┘└──────┘└──────┘└──┘    └──┘  └──┘  └──────┘
 */
-.booklist {
+.doclist {
      display : block;
      align : left;
 }
@@ -20,7 +20,7 @@
      align : left;
 }
 
-.book-link #cover {
+.doc-link #cover {
   float : left;
   margin : 0.25em;
   max-height : 12em;
