@@ -46,10 +46,10 @@
 }
 
 @media (min-width : 48em) {
-    br {
-    display: block;
-    margin-bottom: 2px;
-    font-size:2px;
-    line-height: 2px;
-}
+     br {
+          display: block;
+          margin-bottom: 8px;
+          font-size:8px;
+          line-height: 28px;
+     }
 }
