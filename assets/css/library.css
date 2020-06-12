@@ -46,10 +46,21 @@
 }
 
 @media (min-width : 48em) {
-     br {
-          display: block;
-          margin-bottom: 8px;
-          font-size:8px;
-          line-height: 28px;
+     .doc-link #cover {
+       float : left;
+       margin : 0.25em;
+       max-height : 6em;
+       max-width : 4.5em;
+       width : auto;
+       overflow : hidden;
+     }
+
+     .site-link #cover {
+       float : left;
+       margin : 0.25em;
+       max-height : 6em;
+       max-width : 4.5em;
+       width : auto;
+       overflow : hidden;
      }
 }
