@@ -46,11 +46,6 @@
 }
 
 @media (max-width : 48em) {
-     br {
-            margin: 2em;
-            display: block;
-            font-size: 200%;
-     }
      .doc-link #cover {
        float : center;
        margin : 0.25em;
