@@ -53,8 +53,8 @@ br{
      .doc-link #cover {
        float : center;
        margin : 0.25em;
-       max-height : 4em;
-       max-width : 3em;
+       max-height : 45%;
+       max-width : 45%;
        width : auto;
        overflow : hidden;
      }
@@ -62,8 +62,8 @@ br{
      .site-link #cover {
        float : center;
        margin : 0.25em;
-       max-height : 4em;
-       max-width : 3em;
+       max-height : 45%;
+       max-width : 45%;
        width : auto;
        overflow : hidden;
      }
