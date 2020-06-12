@@ -45,6 +45,10 @@
   border-color : #000000;
 }
 
+br{
+     display : block;
+}
+
 @media (max-width : 48em) {
      .doc-link #cover {
        float : center;
