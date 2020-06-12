@@ -44,3 +44,12 @@
   border-width : 2px;
   border-color : #000000;
 }
+
+@media (min-width : 48em) {
+    br {
+    display: block;
+    margin-bottom: 2px;
+    font-size:2px;
+    line-height: 2px;
+}
+}
