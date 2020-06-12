@@ -45,12 +45,12 @@
   border-color : #000000;
 }
 
-@media (min-width : 48em) {
+@media (max-width : 48em) {
      .doc-link #cover {
        float : left;
        margin : 0.25em;
-       max-height : 4em;
-       max-width : 3em;
+       max-height : 8em;
+       max-width : 6em;
        width : auto;
        overflow : hidden;
      }
@@ -58,8 +58,8 @@
      .site-link #cover {
        float : left;
        margin : 0.25em;
-       max-height : 4em;
-       max-width : 3em;
+       max-height : 8em;
+       max-width : 6em;
        width : auto;
        overflow : hidden;
      }
