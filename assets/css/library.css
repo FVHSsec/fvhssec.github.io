@@ -52,19 +52,19 @@
             font-size: 200%;
      }
      .doc-link #cover {
-       float : left;
+       float : center;
        margin : 0.25em;
-       max-height : 8em;
-       max-width : 6em;
+       max-height : 6em;
+       max-width : 4.5em;
        width : auto;
        overflow : hidden;
      }
 
      .site-link #cover {
-       float : left;
+       float : center;
        margin : 0.25em;
-       max-height : 8em;
-       max-width : 6em;
+       max-height : 6em;
+       max-width : 4.5em;
        width : auto;
        overflow : hidden;
      }
