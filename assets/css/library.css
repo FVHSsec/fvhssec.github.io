@@ -47,10 +47,9 @@
 
 @media (max-width : 48em) {
      br {
-          content: "";
             margin: 2em;
             display: block;
-            font-size: 24%;
+            font-size: 120%;
      }
      .doc-link #cover {
        float : left;
