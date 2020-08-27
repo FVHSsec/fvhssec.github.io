@@ -1,10 +1,11 @@
 .document-cover {
-  max-width : 40%;
+  max-width : 50%;
   height : auto;
 }
 
-.download-link {
+.download-info {
   color : var(--sol-base03);
-
+  font-weight : light;
+  font-size: 1.5em;
   text-decoration : none;
 }
