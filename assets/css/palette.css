@@ -13,14 +13,14 @@
 
 /* Solarized color Palette*/
 :root{
-    --sol-base03 : #002b36;
-    --sol-base02 : #073642;
-    --sol-base01 : #586e75;
-    --sol-base00 : #657b83;
-    --sol-base0 : #839496;
-    --sol-base1 : #93a1a1;
-    --sol-base2 : #eee8d5;
-    --sol-base3 : #fdf6e3;
+    --sol-base03 : #000000;
+    --sol-base02 : #323232;
+    --sol-base01 : #4b4b4b;
+    --sol-base00 : #7d7d7d;
+    --sol-base0 : #969696;
+    --sol-base1 : #afafaf;
+    --sol-base2 : #c8c8c8;
+    --sol-base3 : #fafafa;
     --sol-yellow : #b58900;
     --sol-orange : #cb4b16;
     --sol-red : #dc322f;
