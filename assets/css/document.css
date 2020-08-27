@@ -3,7 +3,7 @@
   height : auto;
 }
 
-.download-info {
+a {
   color : var(--sol-base03);
   font-weight : light;
   font-size: 1.5em;
